@@ -59,7 +59,7 @@ pipeline {
                 script {
                     dir('kb8s') {
                         sh 'kubectl apply -f namespace.yaml'
-                        sh 'kubectl apply -f deployment.yaml'
+                        sh 'kubectl apply -f deployment.yaml' #aca estamos ejecutando el contenedor desde el dockerhub ficticio 
                         sh 'kubectl apply -f loadbalancer.yaml' 
                 }
             }
