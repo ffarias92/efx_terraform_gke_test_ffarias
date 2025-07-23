@@ -1,0 +1,1 @@
+> temporalmente hay una pequeña trampa en el manifiesto del deployment, trae una imagen desde Dockerhub con uno ya configurado de helloworld temporalmente, planeo arreglarlo sin embargo, estan las configuraciones de un Dockerfile y sus dependencias en la carpeta kubernetes/docker-nginx
